@@ -1,0 +1,141 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    color: #007bff;
+    font-size: 2.5em;
+}
+
+.profile-image {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.about {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #007bff;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+
+.services {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    color: #007bff;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.services li:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+
+.contact {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    color: #007bff;
+}
+
+.contact p {
+    font-size: 1.1em;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3; 
+}
+
+
+.footer {
+    background-color: navyblue;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    transition: color 0.3s ease; 
+}
+
+.footer p:hover {
+    color: red; 
+    cursor: pointer; }
